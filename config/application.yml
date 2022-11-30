@@ -1,0 +1,13 @@
+server:
+    port: 8111
+
+spring:
+    application:
+        name: swil-api-gateway
+
+eureka:
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        serviceUrl:
+            defaultZone: http://localhost:8110/eureka/
